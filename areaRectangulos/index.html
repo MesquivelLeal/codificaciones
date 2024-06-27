@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>area Rectangulo</title>
+</head>
+<body>
+        <script>
+            console.log("area Rectangulo")
+
+            var rectanguloUno;
+            var rectanguloDos;
+            var baseUno;
+            var baseDos;
+            var alturaUno;
+            var alturaDos;
+
+
+            baseUno= prompt("por favor digite la base");
+            alturaUno= prompt("por favor digite la alutra");
+            
+            rectanguloUno= parseInt(baseUno) * parseInt(alturaUno);
+            console.log("el area del rectangulo uno: "+rectanguloUno)
+
+            baseDos= prompt("por favor digite la base");
+            alturaDos= prompt("por favor digite la alutra");
+            
+            rectanguloDos= parseInt(baseDos) * parseInt(alturaDos);
+            console.log("el area del rectangulo Dos: "+rectanguloDos)
+
+
+            if (rectanguloUno>rectanguloDos) {
+                    console.log("es mayor rectangulo uno")
+                
+            } else {
+                console.log("es mayor rectangulo dos")
+            }
+        </script>
+</body>
+</html>

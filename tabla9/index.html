@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabla del 9</title>
+</head>
+<body>
+    <script>
+        var numero;
+        var contador;
+        var tabla;
+        var multiplicar;
+        
+
+        tabla=9;
+        numero=5;
+        contador=0;
+
+        while (contador<numero) {
+            contador=contador +1;
+            multiplicar= tabla *contador;
+            if (multiplicar%2==0) {
+                console.log("El resultado es par: " + multiplicar);
+            } else {
+                console.log("El resultado no es par: " + multiplicar);
+            }
+
+            console.log("resultado: "+tabla,"*"+contador,"="+multiplicar);
+        }
+    </script>
+</body>
+</html>

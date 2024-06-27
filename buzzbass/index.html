@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas de multiplicar</title>
+</head>
+<body>
+    <script>
+        console.log("Tablas de multiplicar del 1 al 5")
+
+        var tabla;
+        var multiplicar; 
+
+        var par;
+        var impar;
+        var mod;
+        
+        var iTabla;
+        var iMultiplicar;
+
+        var resultado;
+
+        tabla= 5;
+        multiplicar=5;
+
+        par=0;
+        impar=0;
+
+        iTabla=0
+
+        while(iTabla<tabla){
+            iTabla++
+            console.log("\n\n"+"Tabla del "+ iTabla+"\n\n")
+            iMultiplicar=0
+
+            while(iMultiplicar<multiplicar ){
+                iMultiplicar++
+                resultado=iTabla * iMultiplicar;
+                if(resultado %2==0){
+                    par++
+                    mod= "buzz"
+                }
+                else{
+                    impar++
+                    mod= "bass"
+                }
+                console.log(iTabla+"x"+iMultiplicar+"="+resultado+" "+mod)
+            }
+        }
+        console.log("\n\n"+"Total de pares: "+par)
+        console.log("Total de impares: "+impar)
+    </script>
+</body>
+</html>
+        
+
+ 
+        
+        
